@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BUS TICKIT BOOKING API.props" />
+</Project>

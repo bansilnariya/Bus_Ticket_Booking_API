@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BUS TICKIT BOOKING API", "BUS TICKIT BOOKING API\BUS TICKIT BOOKING API.csproj", "{AB57D6A0-CDC7-4951-AAA4-9CAF115E87D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bus TickitBooking TestCase", "Bus TickitBooking TestCase\Bus TickitBooking TestCase.csproj", "{89FC5251-B672-4964-96DE-637A0BBCBE2A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AB57D6A0-CDC7-4951-AAA4-9CAF115E87D6} = {AB57D6A0-CDC7-4951-AAA4-9CAF115E87D6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB57D6A0-CDC7-4951-AAA4-9CAF115E87D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB57D6A0-CDC7-4951-AAA4-9CAF115E87D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB57D6A0-CDC7-4951-AAA4-9CAF115E87D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB57D6A0-CDC7-4951-AAA4-9CAF115E87D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89FC5251-B672-4964-96DE-637A0BBCBE2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89FC5251-B672-4964-96DE-637A0BBCBE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89FC5251-B672-4964-96DE-637A0BBCBE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89FC5251-B672-4964-96DE-637A0BBCBE2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AA1CA94-D829-4E20-BDEC-C5FB4A65FF72}
+	EndGlobalSection
+EndGlobal
